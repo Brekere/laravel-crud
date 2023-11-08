@@ -24,7 +24,6 @@ class CategorySeeder extends Seeder
                 [
                     'title' => "Categoria $i",
                     'slug' => "slug $i",
-                    'description' => "descripcion $i"
                 ]
                 );
         }

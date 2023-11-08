@@ -25,7 +25,6 @@ class PutRequest extends FormRequest
         return [
             "title"=>"required|min:5|max:500",
             "slug"=>"required|min:5|max:500".$this->route("category")->id,
-            "description"=>"required|min:7",
         ];
     }
 }
